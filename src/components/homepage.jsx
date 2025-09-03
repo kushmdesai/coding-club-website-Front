@@ -6,9 +6,25 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       <section className="bg-gray-900 min-h-screen flex flex-col justify-center items-center px-6 text-center">
-        <h1 className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent text-6xl md:text-8xl font-extrabold mb-6">
-          Coding Club
+        <h1
+            className="text-6xl md:text-8xl font-extrabold text-center"
+            style={{
+                background: "linear-gradient(to right, #9b5de5, #f15bb5, #f28482)",
+                WebkitBackgroundClip: "text",
+                color: "transparent",
+                textShadow: `
+                0 0 4px #f15bb5,
+                0 0 8px #f15bb5,
+                0 0 16px #f15bb5,
+                0 0 32px #f15bb5,
+                0 0 48px #f15bb5
+                `,
+        }}
+        >
+            Coding Club
         </h1>
+
+
         <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-8">
           Learn to code, build exciting projects, and collaborate with your friends! Join our school Coding Club and start creating today.
         </p>
